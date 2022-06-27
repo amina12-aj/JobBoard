@@ -5,11 +5,24 @@ body{
     padding-right: 2%;
 }
 
+img{
+   width: min-content;
+   height: 10rem;
+  z-index: 50;
+ 
+ }
+
+ @media screen and (max-width: 600px) {
+    .navbar navbar-inverse,container-fluid, navbar-header {
+      float: none;
+      width: 100%;
+    }
+  }
 
 h1{
    padding-inline-start: 5mm;
-   padding-top: 5rem;
-   padding-bottom: 5rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
     position: static;
     text-align: center;
     text-decoration-color: brown;
@@ -35,7 +48,12 @@ h2,h3{
     overflow: visible;
   }
   .paradigm{
+    text-align: left;
+    background-color: rgb(230, 97, 74);
+    color: white;
     text-align: center;
-    background-color: red;
   }
-  
+  .footer{
+    text-align: center;
+    background-color: black;
+  }
