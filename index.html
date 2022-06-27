@@ -12,21 +12,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $("#searchKey").on("keyup", function () {
-          var value = $(this).val().toLowerCase();
-          $("#sales").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-          });
-        });
-      });
     </script>
+    
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>WELCOME TO TENECE JOB BOARD</h1>
+    
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -49,58 +40,46 @@
             <li><a href="#">Mission</a></li>
             <li><a href="#">Vision</a></li>
           </ul>
-          <form  class="form-inline">
-            <input id="searchKey"
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
     <img src="" alt="" img />
-
+    <div class="paradigm"><h1>WELCOME TO TENECE JOB BOARD</h1></div>
     <h2>About Us</h2>
-    <p>
+    <p class="about">
       Tenece Professional Services Limited (Tenece) is a multi-competency
       enterprise transformation and technology-consulting firm that combines
       expertise and capabilities across many industries and business functions
-      to deliver superior value to its clients.<br />Tenece collaborates with
+      to deliver superior value to its clients.Tenece collaborates with
       its clients, both in the private and public sectors, to build high
       performance enterprises.Tenece principals and directors have a combined
       industry experience of over 40 years in various sectors of the economy:
       with competence in business transformation, financial advisory, software
       engineering, communication technology, e-Business development, government
       transformations (e-Government), systems integration, IT consulting, and
-      process reengineering.<br />
-      Tenece has deep understanding of the industries it works in, strong
+      process reengineering.Tenece has deep understanding of the industries it works in, strong
       technical competencies and an outstanding track record both in the private
       and public sector. With its tested methodologies and best practices, its
       clients get best-fit, quality solutions that meet their business demands.
       With a flexible organization primed to deliver customized services to its
       clients, Tenece goes the extra mile to fully understand its clients real
-      needs.<br />
-      Tenece offers its clients the capability to reinvent themselves and
+      needs.Tenece offers its clients the capability to reinvent themselves and
       remodel their operations and business services using proven business
       methodologies.
     </p>
     <h2>Our Vision</h2>
-    <p>
+    <p class="about">
       To be the foremost enterprise technology consulting services firm in
       Nigeria and Africa by 2030
     </p>
     <h2>Our Mission</h2>
-    <p>
+    <p class="about">
       To continually collaborate with our esteemed stakeholders to meet desired
       business objectives by providing first-class, unique, premium,
       cost-effective solutions.
     </p>
-    <h2>Our Paradigms</h2>
+    <div class="paradigm">
+      <h2>Our Paradigms</h2>
     <ul>
       <li>Innovation</li>
       <li>Candour</li>
@@ -112,18 +91,19 @@
       <li>Entrepreneurship</li>
       <li>Dynamism</li>
     </ul>
+    </div>
+    
 
     <h3>Available Positions</h3>
-    <p id="admin"><strong>Admin</strong></p>
+    <p class="jobs"><strong>Admin</strong></p>
     <a href="admin.html">Finance Executive</a>
-
-    <p id="network"><strong>Network</strong></p>
+    <p class="jobs"><strong>Network</strong></p>
     <a href="network.html">Network Administrator</a>
-    <p id="software"><strong>Software</strong></p>
+    <p class="jobs"><strong>Software</strong></p>
     <a href="software.html">.Net Senior Developer</a>
-    <p id="operations"><strong>Operations</strong></p>
+    <p class="jobs"><strong>Operations</strong></p>
     <a href="operations.html">Service Desk Administrator</a>
-    <p id="sales"><strong>Sales</strong></p>
+    <p class="jobs"><strong>Sales</strong></p>
     <a href="sales.html">Business Developer</a>
 
     <script src="number.js"></script>
