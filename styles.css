@@ -25,19 +25,20 @@ h1{
    padding-bottom: 2rem;
     position: static;
     text-align: center;
-    text-decoration-color: brown;
     font-weight: 400;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-emphasis-color: red;
 }
-h2,h3{
+h2{
     
     text-decoration-color: brown;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: medium;
+   font-size: large;
 }
 
 .about {
-   
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
     overflow: hidden;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
@@ -53,6 +54,7 @@ h2,h3{
     color: white;
     text-align: center;
   }
+  
   .footer{
     text-align: center;
     background-color: black;
