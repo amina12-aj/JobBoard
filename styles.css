@@ -32,8 +32,8 @@ h1{
 h2,h3{
     
     text-decoration-color: brown;
-    font-weight: 200;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
 }
 
 .about {
@@ -49,11 +49,12 @@ h2,h3{
   }
   .paradigm{
     text-align: left;
-    background-color: rgb(230, 97, 74);
+    background-color: rgb(241, 41, 6);
     color: white;
     text-align: center;
   }
   .footer{
     text-align: center;
     background-color: black;
+    color: white;
   }
