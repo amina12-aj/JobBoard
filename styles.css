@@ -26,10 +26,10 @@ h1{
     position: static;
     text-align: center;
     font-weight: 400;
-   
     text-emphasis-color: red;
     padding-left: 0.3%;
     padding-right: 0.3%;
+  
 }
 h2{
     
@@ -65,8 +65,11 @@ h2{
     padding-left: 0.3%;
     padding-right: 0.3%;
   }
+  .adverts{
+    text-align: justify;
+  }
   .footer{
     text-align: center;
-    background-color: black;
+    background-color: rgb(33, 32, 32);
     color: white;
   }
