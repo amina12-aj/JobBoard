@@ -1,10 +1,27 @@
 body{
     background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20px;
-    padding-right: 20px;
+   
 }
 
+.first_image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+h2,h3,p{
+  padding-left: 20px;
+    padding-right: 20px;
+}
+#vision,.about{
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  text-align: center;
+}
 img{
     max-width: 100%;
     height: auto;
