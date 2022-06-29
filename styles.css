@@ -18,9 +18,13 @@ hr{
     }
   }
 
+  #vision, #mission, .jobs{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
 h1{
    padding-inline-start: 5mm;
-   padding-top: 2rem;
+   padding-top: 1rem;
    padding-bottom: 2rem;
     position: static;
     text-align: center;
