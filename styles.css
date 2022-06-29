@@ -5,9 +5,8 @@ body{
 
 img{
    width: min-content;
-   height: 10rem;
-  z-index: 50;
- 
+   height: auto;
+   width: auto;
  }
 hr{
     border-color: red;
@@ -57,7 +56,7 @@ h2{
  
   .paradigm{
     text-align: left;
-    background-color: rgb(241, 41, 6);
+    background-color: rgb(145, 30, 9);
     color: white;
     text-align: center;
   }
