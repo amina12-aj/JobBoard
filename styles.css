@@ -1,13 +1,12 @@
 body{
     background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 15rem;
    
 }
 
 .first_image{
-  position: relative;
-  text-align: center;
-  padding-bottom: 2rem;
+  position:relative;
 }
 
 h2,h3,p{
@@ -32,12 +31,13 @@ h2,h3,p{
   margin: 10px;
   line-height: 25px;
   padding-right: 20px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .about{
   font-size: medium;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 5rem;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 h1{
   text-align: center;
@@ -48,8 +48,11 @@ img{
     height: auto;
   }
   #second_img{
-    height:280px;
-    border-radius: 90%;
+  height:280px;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
   }
  
 hr{
@@ -61,7 +64,10 @@ hr{
       width: 100%;
     }
   }
+#team{ background-color: black;
+  color: white;
 
+}
  .jobs{ 
 color:black;}
  .container{ float:right;
