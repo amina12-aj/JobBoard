@@ -1,8 +1,7 @@
 body{
     background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 15rem;
-    padding-right: 3%;
+    border: 20rem;
    
 }
 
@@ -24,6 +23,7 @@ h2,h3,p{
 .beliefs{
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 .beliefs > div{
   background-color: rgb(210, 62, 62);
