@@ -7,6 +7,7 @@ body{
 .first_image{
   position: relative;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 h2,h3,p{
