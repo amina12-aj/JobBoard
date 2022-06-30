@@ -37,6 +37,8 @@ h2,h3,p{
 .about{
   font-size: medium;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 h1{
   text-align: center;
